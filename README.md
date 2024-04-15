@@ -13,7 +13,11 @@
 O projeto consiste em um visualizador de grafos, onde o usuário pode criar um desenho gráfico no terminal, utilizando o algoritmo de DFS para a criação do grafo. O programa é capaz de criar um grafo com a quantidade desejada de vértices e coordenadas, e então o programa irá desenhar o grafo na tela.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+<img src="assets/images/exemplo4.jpeg" width="1024" height="500"> 
+<img src="assets/images/exemplo3.jpeg" width="1024" height="500"> 
+<img src="assets/images/exemplo2.jpeg" width="1024" height="500"> 
+<img src="assets/images/exemplo1.jpeg" width="1024" height="500">
 
 ## Instalação 
 **Linguagem**: C<br>
