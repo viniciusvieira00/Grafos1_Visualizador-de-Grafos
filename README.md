@@ -1,44 +1,37 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Visualizador de Grafos
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 12<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula  | Aluno                                    |
+| ---------- | ---------------------------------------- |
+| 19/0118059 | Vinicius Angelo de Brito Vieira          |
+| 18/0126130 | Luciano Alves do Brasil Schindel Machado |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto consiste em um visualizador de grafos, onde o usuário pode criar um desenho gráfico no terminal, utilizando o algoritmo de DFS para a criação do grafo. O programa é capaz de criar um grafo com a quantidade desejada de vértices e coordenadas, e então o programa irá desenhar o grafo na tela.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
+Para instalar o programa, é necessário o compilador GCC instalado, e a utilização do sistema operacional windows, basta clonar o repositório e executar o arquivo executável. Para isso, execute os seguintes comandos no terminal:
+```bash
+$ git clone https://github.com/viniciusvieira00/Grafos1_Visualizador-de-Grafos.git
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para a utilização do programa, basta executar o arquivo executável e seguir as instruções na tela, para executar o programa, execute o seguinte passo a passo na pasta que acaba de clonar o projeto:
+```bash
+$ cd Grafos1_Visualizador-de-Grafos/src
+$ ./run.bat
+```
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+É necessário ter o compilador GCC instalado para a execução do programa, e que seja compatível com a biblioteca pthreads, para isso recomendamos a utilização do compilador GNU GCC. <br>
+Link para download: https://gcc.gnu.org/install/index.html
 
 
 
