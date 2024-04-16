@@ -10,7 +10,19 @@
 | 18/0126130 | Luciano Alves do Brasil Schindel Machado |
 
 ## Sobre 
-O projeto consiste em um visualizador de grafos, onde o usuário pode criar um desenho gráfico no terminal, utilizando o algoritmo de DFS para a criação do grafo. O programa é capaz de criar um grafo com a quantidade desejada de vértices e coordenadas, e então o programa irá desenhar o grafo na tela.
+O projeto **Visualizador de Grafos** é uma aplicação desenvolvida em linguagem C que permite aos usuários interagir e visualizar grafos diretamente no terminal. Este programa é projetado para ser tanto educativo quanto funcional, oferecendo uma interface interativa onde os usuários podem inserir as coordenadas no plano cartesiano para adicionar vértices ao grafo.
+
+# **Funcionalidades Principais:**
+
+- **Criação de grafos de exemplo:** O programa é capaz de criar um grafo de um cubo, e também de um tetraedro, para que o usuário possa visualizar a estrutura de um grafo de forma mais simples, sem a necessidade de criar vértices manualmente.
+
+- **Criação Interativa de Vértices:** Os usuários podem especificar as coordenadas de cada vértice no plano cartesiano. Isso é feito através de uma série de prompts no terminal, onde o usuário informa as posições (x, y) para cada vértice que deseja adicionar ao grafo.
+
+- **Visualização de Grafos:** Uma vez que todos os vértices são inseridos, o programa utiliza o algoritmo de Busca em Profundidade (DFS - Depth First Search) para explorar e visualizar as conexões entre os vértices. O algoritmo DFS é fundamental para determinar a maneira como os vértices são conectados e como o grafo é estruturado.
+
+- **Renderização Gráfica no Terminal:** Após a execução do DFS, o programa renderiza o grafo no terminal, mostrando visualmente a estrutura do grafo conforme especificado pelo usuário. Esta visualização ajuda na compreensão das relações entre os vértices e a estrutura geral do grafo.
+
+O principal objetivo deste projeto é fornecer uma ferramenta simples, porém poderosa, para a visualização e entendimento de grafos. Ele visa ajudar estudantes e entusiastas em computação a entender melhor os conceitos de grafos e algoritmos de busca, como o DFS, através de uma abordagem prática e interativa.
 
 ## Screenshots
 
@@ -36,7 +48,4 @@ $ ./run.bat
 ## Outros 
 É necessário ter o compilador GCC instalado para a execução do programa, e que seja compatível com a biblioteca pthreads, para isso recomendamos a utilização do compilador GNU GCC. <br>
 Link para download: https://gcc.gnu.org/install/index.html
-
-
-
 
