@@ -1,11 +1,11 @@
 @echo off
-gcc -g -mwindows main.c -o out
+gcc -g -mwindows main.c -o graph_vizualizer
 
 if %errorlevel% neq 0 (
     exit /b %errorlevel%
 )
 
-.\out
+.\graph_vizualizer
 
 if %errorlevel% equ 0 (
     echo BATCH:SUCCESS

@@ -300,6 +300,7 @@ void *cli_thread_function(void *arg)
 		puts("\'tetrahedro\' - exemplo de um grafo em formato de tetrahedro");
 		puts("\'aleatorio\' - criar um grafo aleatorio de n vertices");
 		puts("\'criar\' - criar um grafo");
+		puts("\'limpar\' - limpar a tela");
 	}
 	assert(arg);
 	puts("   _____                 _      __      ___                 _ _              ");
@@ -321,6 +322,10 @@ void *cli_thread_function(void *arg)
 		{
 			CloseWindow(*(HWND*)arg);
 			return NULL;
+		}
+		else if(!strcmp(string_buffer, "limpar"))
+		{
+			memset(pixel_data, 0, client_rectangle.right*client_rectangle.bottom*sizeof(COLORREF));
 		}
 		else if(!strcmp(string_buffer, "ajuda"))
 		{
@@ -588,7 +593,7 @@ int main(int argc, char **argv)
 		window_procedure;
 	});
 	assert(window_class.hInstance=GetModuleHandle(NULL));
-	window_class.lpszClassName="window_name";
+	window_class.lpszClassName="graph_vizualizer";
 	assert(RegisterClass(&window_class));
 	HWND window_handle;
 	assert(window_handle=CreateWindow(
