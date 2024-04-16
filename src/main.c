@@ -315,10 +315,6 @@ void *cli_thread_function(void *arg)
 	puts("Ele utiliza o algoritmo DFS e muito mais!");
 	puts("Comandos:");
 	ajuda();
-	puts("\'sair\' - terminar o programa");
-	puts("\'cubo\' - exemplo de um grafo em formato de cubo");
-	puts("\'tetrahedro\' - exemplo de um grafo em formato de tetrahedro");
-	puts("\'criar\' - criar um grafo");
 	char string_buffer[256];
 	while(scanf("%s", &string_buffer))
 		if(!strcmp(string_buffer, "sair"))
