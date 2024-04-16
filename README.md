@@ -51,7 +51,5 @@ Link para download: https://gcc.gnu.org/install/index.html
 
 ## Vídeo do Projeto
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RHv2X3MNMso?si=iNhAUgU52LatHqDW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Caso deseje acessar o vídeo pelo próprio youtube, você consegue[clicando aqui.](https://www.youtube.com/watch?v=RHv2X3MNMso).
+Caso deseje visualizar o vídeo de apresentação do projeto, você consegue [clicando aqui.](https://www.youtube.com/watch?v=RHv2X3MNMso).
 
